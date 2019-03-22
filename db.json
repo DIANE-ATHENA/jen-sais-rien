@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "user@example.com",
+      "password": "$2a$10$d.q3dRqXioduYt8SloH7aO79vn7R5MUO7ZN5m8YC/W6CATacnefsu",
+      "id": 1
+    }
+  ],
+  "recipes": [
+      {
+          "id": 1,
+          "name": "salade d'oranges"
+      },
+
+      {
+          "id": 2,
+          "name": "verrines de Noël"
+      },
+
+      {
+          "id": 3,
+          "name": "dinde rôtie et sa purée de potimarron"
+      }
+  ]
+}
