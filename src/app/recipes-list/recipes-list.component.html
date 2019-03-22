@@ -1,6 +1,6 @@
 <h3>Mes recettes</h3>
 
-<p *nfIf="!recipes">Chargement</p>
+<p *ngIf="!recipes">Chargement</p>
 
 <ul *ngIf="recipes">
   <li *ngFor="let recipe of recipes">{{ recipe.name }}</li>
