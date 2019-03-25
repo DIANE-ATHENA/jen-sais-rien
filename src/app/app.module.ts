@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule,MatMenuModule, MatIconModule, MatCardModule, MatCardTitle, MatFormField, MatFormFieldModule, MatInputModule, MatSnackBarModule } from '@angular/material';
 import { RecipesListComponent } from './recipes-list/recipes-list.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { UserCardComponent } from './user-card/user-card.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AuthInterceptor } from './auth.interceptor';
 
 
 
@@ -39,7 +40,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
 
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS,
+    useClass: AuthInterceptor, multi: true}
+  ],
+  
   bootstrap: [AppComponent]
 })
 
