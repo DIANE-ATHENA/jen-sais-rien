@@ -1,11 +1,28 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
+<div>
+  <h1 style="color: blue;">
+    Diabète<span style="color:crimson">&</span>
+    <span style="color:forestgreen">Plaisirs de la Table</span>
   </h1>
   
-  <button routerLink="/recipes" mat-raised-button color="primary">Voir mes recettes</button>
+
+  <select>
+    <option hidden selected>Je suis un(e) : </option>
+    <option value="diabétique Type I">diabétique Type I</option>
+    <option value="diabétique Type II">diabétique Type II</option>
+    <option value="diabétique gestationnel">diabétique gestationnel</option>
+    <option value="ado diabétique">ado diabétique</option>
+  </select> 
+  <button routerLink="/login">Se connecter</button>
+  <button routerLink="/createLogin">Créer son compte</button>
 </div>
 
+<body>
+  <ul class="nav">
+    <li><button routerLink="/recipes" style="color:forestgreen">Entrées</button></li>
+    <li><button routerLink="/recipes" style="color:crimson">Plats</button></li>
+    <li><button routerLink="/recipes" style="color:chocolate">Desserts</button></li>
+</ul>
+</body>
 
 <router-outlet></router-outlet>
