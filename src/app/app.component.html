@@ -1,28 +1,49 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div>
-  <h1 style="color: blue;">
-    Diabète<span style="color:crimson">&</span>
-    <span style="color:forestgreen">Plaisirs de la Table</span>
-  </h1>
+  
+    <div class="degrade1">
+      <h1 style="color: blue;">
+        Diabète<span style="color:crimson">&</span>
+        <span style="color:forestgreen">Plaisirs de la Table</span>
+      </h1>
   
 
-  <select>
-    <option hidden selected>Je suis un(e) : </option>
-    <option value="diabétique Type I">diabétique Type I</option>
-    <option value="diabétique Type II">diabétique Type II</option>
-    <option value="diabétique gestationnel">diabétique gestationnel</option>
-    <option value="ado diabétique">ado diabétique</option>
-  </select> 
-  <button routerLink="/login">Se connecter</button>
-  <button routerLink="/createLogin">Créer son compte</button>
-</div>
+      <select>
+        <option hidden selected>Je suis un(e) : </option>
+        <option value="diabétique Type I">diabétique Type I</option>
+        <option value="diabétique Type II">diabétique Type II</option>
+        <option value="diabétique gestationnel">diabétique gestationnel</option>
+        <option value="ado diabétique">ado diabétique</option>
+      </select> 
+
+      <button routerLink="/login">Se connecter</button>
+      <button routerLink="/createLogin">Créer son compte</button>
+    </div>
+ 
+   
+
 
 <body>
-  <ul class="nav">
-    <li><button routerLink="/recipes" style="color:forestgreen">Entrées</button></li>
-    <li><button routerLink="/recipes" style="color:crimson">Plats</button></li>
-    <li><button routerLink="/recipes" style="color:chocolate">Desserts</button></li>
-</ul>
+  <div class="degrade2">
+    <ul class="nav">
+      <li><a routerLink="/recipes" style="color:forestgreen">Entrées</a></li>
+      <li><a routerLink="/recipes" style="color:crimson">Plats</a></li>
+      <li><a routerLink="/recipes" style="color:chocolate">Desserts</a></li>
+    </ul>
+  </div>
+
+  <div class="degrade3">
+    <ul class="nav">
+      <li><a routerLink="/recipes" style="color: cornflowerblue">Poissons</a></li>
+      <li><a routerLink="/recipes" style="color: brown">Viandes</a></li>
+    </ul>
+  </div>
+
+  <div class="degrade4">
+    <ul class="nav">
+      <li><a routerLink="/recipes" style="color:green">Légumes</a></li>
+      <li><a routerLink="/recipes" style="color: goldenrod">Féculents</a></li>
+      <li><a routerLink="/recipes" style="color: red">Fruits</a></li>
+    </ul>
+  </div>
 </body>
 
 <router-outlet></router-outlet>

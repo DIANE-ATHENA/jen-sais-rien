@@ -1,12 +1,6 @@
-<h3>Mes recettes</h3>
 
-<ul>
-  <li>Salade d'oranges</li>
-  <li>Flan coco</li>
-  <li>Velouté de poireaux</li>
-</ul>
 
-<p *ngIf="!recipes">Chargement</p>
+
 
 <ul *ngIf="recipes">
   <li *ngFor="let recipe of recipes">{{ recipe.name }}</li>
