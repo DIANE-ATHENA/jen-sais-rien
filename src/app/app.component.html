@@ -14,36 +14,10 @@
         <option value="ado diabétique">ado diabétique</option>
       </select> 
 
-      <button routerLink="/login">Se connecter</button>
+      <button (click)="showLogin=!showLogin">Se connecter</button>
       <button routerLink="/createLogin">Créer son compte</button>
     </div>
- 
+
+ <app-login *ngIf="showLogin"></app-login>
    
-
-
-<body>
-  <div class="degrade2">
-    <ul class="nav">
-      <li><a routerLink="/recipes" style="color:forestgreen">Entrées</a></li>
-      <li><a routerLink="/recipes" style="color:crimson">Plats</a></li>
-      <li><a routerLink="/recipes" style="color:chocolate">Desserts</a></li>
-    </ul>
-  </div>
-
-  <div class="degrade3">
-    <ul class="nav">
-      <li><a routerLink="/recipes" style="color: cornflowerblue">Poissons</a></li>
-      <li><a routerLink="/recipes" style="color: brown">Viandes</a></li>
-    </ul>
-  </div>
-
-  <div class="degrade4">
-    <ul class="nav">
-      <li><a routerLink="/recipes" style="color:green">Légumes</a></li>
-      <li><a routerLink="/recipes" style="color: goldenrod">Féculents</a></li>
-      <li><a routerLink="/recipes" style="color: red">Fruits</a></li>
-    </ul>
-  </div>
-</body>
-
 <router-outlet></router-outlet>

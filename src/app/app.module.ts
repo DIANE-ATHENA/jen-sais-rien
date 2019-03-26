@@ -11,6 +11,8 @@ import { UserCardComponent } from './user-card/user-card.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthInterceptor } from './auth.interceptor';
+import { CategoriesComponent } from './categories/categories.component';
+import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
 
 
 
@@ -22,6 +24,8 @@ import { AuthInterceptor } from './auth.interceptor';
     RecipesListComponent,
     UserCardComponent,
     LoginComponent,
+    CategoriesComponent,
+    RecipesCategoryComponent,
     
   ],
 

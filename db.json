@@ -7,19 +7,273 @@
     }
   ],
   "recipes": [
-      {
+    {
+      "id": 1,
+      "name": "Papillotte de foie gras",
+      "type": "entree",
+      "ingredients": [
+        {
           "id": 1,
-          "name": "salade d'oranges"
-      },
-
-      {
+          "name": "Foie gras de canard sans morceaux",
+          "quantity": "120 grammes"
+        },
+        {
           "id": 2,
-          "name": "verrines de Noël"
-      },
-
-      {
+          "name": "Feuilles de brick",
+          "quantity": "6 feuilles"
+        },
+        {
           "id": 3,
-          "name": "dinde rôtie et sa purée de potimarron"
-      }
+          "name": "Pomme Granny",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Quatre épices",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 5,
+          "name": "Poivre",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 6,
+          "name": "Ficelle de cuisine",
+          "quantity": "1 bobine"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "verrines de potimarron aux noix",
+      "type": "entree",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Potimarron",
+          "quantity": "1 de 800grammes"
+        },
+        {
+          "id": 2,
+          "name": "Cerneaux de noix",
+          "quantity": "40 grammes"
+        },
+        {
+          "id": 3,
+          "name": "Mâche",
+          "quantity": "100 grammes"
+        },
+        {
+          "id": 4,
+          "name": "Quatre épices",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 4,
+          "name": "Sel",
+          "quantity": "1 pincée"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "dinde rôtie et sa purée de potimarron",
+      "type": "plat",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Dinde",
+          "quantity": "1 de 2.3kg"
+        },
+        {
+          "id": 2,
+          "name": "Carottes",
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "name": "Poireau",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Bouquet garni",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Huile d'olive",
+          "quantity": "2 cuillérées à soupe"
+        },
+        {
+          "id": 6,
+          "name": "Potimarron",
+          "quantity": "1 de 2kg"
+        },
+        {
+          "id": 7,
+          "name": "Huile de noisette (ou de noix)",
+          "quantity": "2 cuillérées à soupe"
+        },
+        {
+          "id": 8,
+          "name": "Fleur de sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 9,
+          "name": "Poivre du moulin",
+          "quantity": "1 pincée"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lotte à la vanille, riz sauvage et fondue de poireaux",
+      "type": "plat",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Queue de lotte",
+          "quantity": "900 grammes sans la peau"
+        },
+        {
+          "id": 2,
+          "name": "Huile d'olive",
+          "quantity": "4 cuillérées à soupe"
+        },
+        {
+          "id": 3,
+          "name": "Echalotte",
+          "quantity": "1 grosse"
+        },
+        {
+          "id": 4,
+          "name": "Vanille",
+          "quantity": "3 gousses"
+        },
+        {
+          "id": 5,
+          "name": "Crème fraîche épaisse 15%",
+          "quantity": "200 grammes"
+        },
+        {
+          "id": 6,
+          "name": "Fumet de poisson",
+          "quantity": "100ml"
+        },
+        {
+          "id": 7,
+          "name": "Gingembre frais",
+          "quantity": "1 petit morceau"
+        },
+        {
+          "id": 8,
+          "name": "Citron",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Poivre",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 10,
+          "name": "Fleur de sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 11,
+          "name": "Riz sauvage",
+          "quantity": "225 grammes"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "salade d'oranges",
+      "type": "dessert",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Orange",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Menthe",
+          "quantity": "2 feuilles"
+        },
+        {
+          "id": 3,
+          "name": "Canelle",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 4,
+          "name": "Vanille",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 5,
+          "name": "Cinq épices",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 6,
+          "name": "Fleur d'oranger",
+          "quantity": "1 cuillère à café"
+        },
+        {
+          "id": 7,
+          "name": "Amandes effilées",
+          "quantity": "20 grammes"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pancakes",
+      "type": "dessert",
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Oeuf",
+          "quantity": "1 gros"
+        },
+        {
+          "id": 2,
+          "name": "Farine d'épeautre complète",
+          "quantity": "150 grammes"
+        },
+        {
+          "id": 3,
+          "name": "Levure chimique",
+          "quantity": "1/2 sachet"
+        },
+        {
+          "id": 4,
+          "name": "Sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 5,
+          "name": "Sucre de coco",
+          "quantity": "10 grammes"
+        },
+        {
+          "id": 6,
+          "name": "Lait sans lactose",
+          "quantity": "25 cl"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Super recette !",
+      "recipeId": 1
+    }
   ]
 }

@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Diabète&Plaisirs de la Table';
+  showLogin : boolean;
 }
 
 
