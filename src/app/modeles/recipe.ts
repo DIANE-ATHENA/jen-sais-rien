@@ -2,9 +2,9 @@ export class Recipe {
         name: string;
         id: number;
         type: string;
-        author: string;
+        author: any;
         image: string;
-        numberPersons: string;
+        numberPersons: any;
         sugar: any;
         fat: any;
         ease: any; 

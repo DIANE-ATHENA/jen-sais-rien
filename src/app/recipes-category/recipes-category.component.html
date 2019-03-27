@@ -1,17 +1,7 @@
+<h1>{{ categoryName|uppercase }}</h1>
 
+<p *ngIf="!recipes">Chargement des recettes...</p>
 
-<mat-card *ngIf="category">
-    <h1>{{ category.name }}</h1>
-        <mat-card-title *ngFor="let (name, author) of category">
-            {{ category.nameRecipe }} {{ category.author }}></mat-card-title>
-                <mat-card-image *ngFor="let image of category">{{ category.image }}</mat-card-image>
-                    <mat-card-content *ngFor="let (numberPersons, sugar, fat, ease, cost, timePreparation, 
-                                                timeCooking, ingredients) of category">
-                    {{ category.numberPersons[] }} {{ category.sugar[] }} {{ category.fat[] }}
-                    {{ category.ease[] }} {{ category.cost[] }} {{ category.timePreparation[] }}
-                    {{ category.timeCooking[] }} {{ category.ingredients[] }}
-                    
-
-
-                 </mat-card-content>
-</mat-card>
+<div class="recipes" *ngIf="recipes">
+    <app-recipe-details *ngFor="let recipe of recipes" [recipe]="recipe"></app-recipe-details>
+</div>

@@ -10,10 +10,16 @@ import { Recipe } from '../modeles/recipe';
 })
 export class RecipesCategoryComponent implements OnInit {
 
+  categoryName: string
+  recipes: Recipe[]
+  
   constructor(private _activatedRoute: ActivatedRoute, private _recipesService: RecipesService) {
     this._activatedRoute.params.subscribe(params => {
+      this.categoryName = params.category
       this._recipesService.findRecipesByCategory(params.category).subscribe(
-        (recipes: Recipe[]) => console.log(recipes)
+        (recipes: Recipe[]) => {
+          this.recipes = recipes
+        }
       )
     })
 

@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthInterceptor } from './auth.interceptor';
 import { CategoriesComponent } from './categories/categories.component';
 import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
+import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 
 
 
@@ -26,6 +27,7 @@ import { RecipesCategoryComponent } from './recipes-category/recipes-category.co
     LoginComponent,
     CategoriesComponent,
     RecipesCategoryComponent,
+    RecipeDetailsComponent,
     
   ],
 

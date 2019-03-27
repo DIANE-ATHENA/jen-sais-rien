@@ -1,0 +1,26 @@
+<mat-card *ngIf="recipe">
+  <mat-card-title>{{ recipe.name }} {{ recipe.author }}</mat-card-title>
+  <img mat-card-image src="{{ recipe.image }}" />
+  <mat-card-content>
+    <img src="{{recipe.numberPersons.icone}}" class="icone" />{{recipe.numberPersons.quantity}}
+    <br />
+    <img src="{{recipe.sugar.icone}}" class="icone" />{{recipe.sugar.quantity}}
+    <br>
+    <img src="{{recipe.fat.icone}}" class="icone" />{{recipe.fat.quantity}}
+    <br>
+    <img src="{{recipe.ease.icone}}" class="icone" />{{recipe.ease.quantity}}
+    <br>
+    <img src="{{recipe.cost.icone}}" class="icone" />{{recipe.cost.quantity}}
+    <br>
+    <img src="{{recipe.timePreparation.icone}}" class="icone" />{{recipe.timePreparation.quantity}}
+    <br>
+    <img src="{{recipe.timeCooking.icone}}" class="icone" />{{recipe.timeCooking.quantity}}
+    <br>
+    <br>
+    Ingrédients :
+    <ul>
+      <li *ngFor="let ingredient of recipe.ingredients">{{ingredient.quantity}} {{ingredient.name}}</li>
+    </ul>
+    
+  </mat-card-content>
+</mat-card>
