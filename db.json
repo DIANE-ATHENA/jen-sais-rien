@@ -22,7 +22,7 @@
         "quantity": "1/4"
       },
       "fat": {
-        "icone": "https://previews.123rf.com/images/natis76/natis761409/natis76140900496/31874605-goutte-d-huile-ic%C3%B4ne.jpg",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "1/4"
       },
       "ease": {
@@ -36,12 +36,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "20 minutes"
+        "quantity": "20 min de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "3 minutes"
+        "quantity": "3 min de cuisson"
       },
       "ingredients": [
         {
@@ -118,7 +118,7 @@
         "quantity": "0/4"
       },
       "fat": {
-        "icone": "https://previews.123rf.com/images/natis76/natis761409/natis76140900496/31874605-goutte-d-huile-ic%C3%B4ne.jpg",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "0/4"
       },
       "ease": {
@@ -132,12 +132,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "~1h"
+        "quantity": "~1h de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "45/50 minutes"
+        "quantity": "45/50 min de cuisson"
       },
       "ingredients": [
         {
@@ -191,6 +191,87 @@
     },
     {
       "id": 3,
+      "name": "Velouté de céleri, truite fumée",
+      "type": "plat",
+      "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
+      "image": "https://www.federationdesdiabetiques.org/sites/default/files/recettes/veloute_celeri.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "4 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "1/4"
+      },
+      "fat": {
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
+        "quantity": "0/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "timePreparation": {
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "35/40 min de préparation"
+      },
+      "timeCooking": {
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "15 min de cuisson"
+      },
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Céleri rave",
+          "quantity": "800 grammes"
+        },
+        {
+          "id": 1,
+          "name": "Pomme de terre",
+          "quantity": "200 grammes"
+        },
+        {
+          "id": 1,
+          "name": "Oignon",
+          "quantity": "1"
+        },
+        {
+          "id": 1,
+          "name": "Lait concentré non sucré",
+          "quantity": "100 ml"
+        },
+        {
+          "id": 1,
+          "name": "Truite fumée",
+          "quantity": "200 grammes"
+        }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text" :"Laver, éplucher et couper en morceaux la pomme de terre et le céleri. Eplucher et ciseler l’oignon."
+        },
+        {
+          "id": 2,
+          "name":2,
+          "text": "Disposer dans une cocotte, couvrir d’eau à hauteur, porter rapidement à ébullition et cuire 15 minutes. Egoutter en gardant de l’eau de cuisson. Mixer en ajoutant le lait concentré et 300 ml d’eau de cuisson, pour obtenir la consistance d’un velouté assez épais. Ajouter une pincée de sel, du poivre."
+        },
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Couper la truite fumée en lanières, les disposer sur le velouté, poivrer et servir."
+        }
+      ]  
+    },
+    
+   
+    {
+      "id": 4,
       "name": "Dinde rôtie et sa purée de potimarron",
       "type": "plat",
       "author": "(Anonyme)",
@@ -204,7 +285,7 @@
         "quantity": "1/4"
       },
       "fat": {
-        "icone": "https://previews.123rf.com/images/natis76/natis761409/natis76140900496/31874605-goutte-d-huile-ic%C3%B4ne.jpg",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "2/4"
       },
       "ease": {
@@ -218,12 +299,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "25/30 minutes"
+        "quantity": "25/30 min de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "~1h45"
+        "quantity": "~1h45 de cuisson"
       },
       "ingredients": [
         {
@@ -306,7 +387,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Lotte à la vanille, riz sauvage et fondue de poireaux",
       "type": "plat",
       "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
@@ -320,7 +401,7 @@
         "quantity": "2/4"
       },
       "fat": {
-        "icone": "https://previews.123rf.com/images/natis76/natis761409/natis76140900496/31874605-goutte-d-huile-ic%C3%B4ne.jpg",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "1/4"
       },
       "ease": {
@@ -334,12 +415,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "15/20 minutes"
+        "quantity": "15/20 min de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "~20 minutes"
+        "quantity": "~20 min de cuisson"
       },
       "ingredients": [
         {
@@ -456,8 +537,121 @@
         }
       ]
     },
+
     {
-      "id": 5,
+      "id": 6,
+      "name": "Gratin quinoa-poireaux",
+      "type": "plat",
+      "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
+      "image": "https://www.federationdesdiabetiques.org/sites/default/files/recettes/gratin_quinoa_poireaux.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "4 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "2/4"
+      },
+      "fat": {
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
+        "quantity": "2/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "1/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "35/40 min de préparation"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "~33 min de cuisson"
+      },
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Poireaux",
+          "quantity": "1 kg"
+        },
+        {
+          "id": 2,
+          "name": "Quinoa cru",
+          "quantity": "200 grammes"
+        },
+        {
+          "id": 3,
+          "name": "Lait demi-écrémé",
+          "quantity": "200 ml"
+        },
+        {
+          "id": 4,
+          "name": "Oignon",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Gousse d'ail",
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Huile d'olive",
+          "quantity": "30 ml"
+        },
+        {
+          "id": 7,
+          "name": "Sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 8,
+          "name": "Poivre",
+          "quantity": "1 pincée"
+        },
+        {
+          "id": 9,
+          "name": "Fromage râpé",
+          "quantity": "40 grammes"
+        }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Préchauffer le four à 180°C. Peler l’oignon et l’ail et les émincer. Chauffer l’huile dans une casserole puis faire revenir l’oignon 2 minutes et ajouter l’ail 1 minute."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Ajouter le quinoa et faire revenir 2 minutes en remuant. Verser le lait et cuire à feux doux durant 20 minutes à partir de l’ébullition. Ajouter de l’eau si nécessaire."
+        }, 
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Cuire les poireaux à la vapeur."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Mélanger les poireaux avec le quinoa puis placer dans un plat à gratin, parsemer de fromage râpé."
+        },
+        {
+          "id": 5,
+          "name": 5,
+          "text": "Faire cuire 10 minutes au four. Servir avec une salade."
+        }
+      ]
+    },
+   
+    {
+      "id": 7,
       "name": "Salade d'oranges",
       "type": "dessert",
       "author": "(Anonyme)",
@@ -471,7 +665,7 @@
         "quantity": "1/4"
       },
       "fat": {
-        "icone": "https://previews.123rf.com/images/natis76/natis761409/natis76140900496/31874605-goutte-d-huile-ic%C3%B4ne.jpg",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "0/4"
       },
       "ease": {
@@ -485,12 +679,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "15/20 minutes"
+        "quantity": "15/20 min de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "20 minutes au réfrigérateur"
+        "quantity": "20 min au réfrigérateur"
       },
       "ingredients": [
         {
@@ -548,7 +742,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Pancakes",
       "type": "dessert",
       "author": "(Anonyme)",
@@ -562,7 +756,7 @@
         "quantity": "3/4"
       },
       "fat": {
-        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
         "quantity": "1/4"
       },
       "ease": {
@@ -576,12 +770,12 @@
       "timePreparation": {
         "name": "Préparation",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "15/20 minutes"
+        "quantity": "15/20 min de préparation"
       },
       "timeCooking": {
         "name": "Cuisson",
         "icone": "http://www.icone-png.com/png/14/14357.png",
-        "quantity": "2 à 3 minutes"
+        "quantity": "2 à 3 min de cuisson"
       },
       "ingredients": [
         {
@@ -634,11 +828,121 @@
         {
           "id": 4,
           "name": 4,
-          "text": "Dégustez les pancakes encore tièdes."
+          "text": "Déguster les pancakes encore tièdes."
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "name": "Clafoutis au chocolat et aux poires",
+      "type": "dessert",
+      "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
+      "image": "https://www.federationdesdiabetiques.org/sites/default/files/recettes/clafoutis_chocolat_poires.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "6 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "1/4"
+      },
+      "fat": {
+        "icone": "https://fscomps.fotosearch.com/compc/CSP/CSP834/dor%C3%A9-goutte-clipart__k50601824.jpg",
+        "quantity": "0/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "2/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "15/20 min de préparation"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "30 min de cuisson"
+      },
+      "ingredients": [
+        {
+          "id": 1,
+          "name": "Petites poires mûres",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Farine complète",
+          "quantity": "60 grammes"
+        },
+        {
+          "id": 3,
+          "name": "Maïzena",
+          "quantity": "20 grammes"
+        },
+        {
+          "id": 4,
+          "name": "Sucre",
+          "quantity": "3 cuillères à café"
+        },
+        {
+          "id": 5,
+          "name": "Cacao en poudre non sucré",
+          "quantity": "3 cuillères à café"
+        },
+        {
+          "id": 6,
+          "name": "Oeufs",
+          "quantity": "2"
+        },
+        {
+          "id": 7,
+          "name": "Lait écrémé",
+          "quantity": "30 cl"
+        }
+      ], 
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Préchauffer le four à 200 °C."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Dans une jatte, mélanger les farines, le sucre et le cacao. Ajouter les œufs battus puis incorporer lentement le lait, en ne cessant de mélanger."
+        },
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Couper les poires en fines lamelles et les ajouter à la préparation."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Répartir le mélange dans un moule à gâteau tapissé de papier sulfurisé, faire cuire 30 minutes."
+        },
+        {
+          "id": 5,
+          "name": 5,
+          "text": "Piquer le clafoutis avec la lame d’un couteau pour vérifier la cuisson."
+        },
+        {
+          "id": 6,
+          "name": 6,
+          "text": "Déguster le gâteau tiède ou le laisser refroidir."
         }
       ]
     }
   ],
+  
+
+  
   "comments": [
     {
       "comment": "Super recette !",
