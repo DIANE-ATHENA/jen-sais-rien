@@ -14,6 +14,7 @@ import { AuthInterceptor } from './auth.interceptor';
 import { CategoriesComponent } from './categories/categories.component';
 import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
+import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
 
 
 
@@ -28,6 +29,7 @@ import { RecipeDetailsComponent } from './recipe-details/recipe-details.componen
     CategoriesComponent,
     RecipesCategoryComponent,
     RecipeDetailsComponent,
+    RecipeProcessComponent,
     
   ],
 

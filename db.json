@@ -11,7 +11,7 @@
       "id": 1,
       "name": "Papillottes de foie gras",
       "type": "entree",
-      "author": "Mélanie MERCIER, diététicienne-nutritionniste",
+      "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
       "image": "https://static.750g.com/images/622-auto/173297a4079444ea14010eb9bc3640b0/papillotes-de-foie-gras-aux-miel-et-pain-d-epices.jpeg",
       "numberPersons": {
         "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
@@ -74,13 +74,40 @@
           "name": "Ficelle de cuisine",
           "quantity": "1 bobine"
         }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Peler la pomme, la couper en petits morceaux et la faire compoter avec une pincée de quatre épices. Laisser refroidir. Préchauffer le four à 200°C."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Détailler le foie gras en 6 morceaux."
+        },
+        {
+          "id":3,
+          "name": 3,
+          "text": "Plier une feuille de brick en 2, faire un cercle de compotée de pommes au centre et disposer le cube de foie gras au milieu du cercle (le foie gras ne doit pas être en contact avec la compotée, il risquerait de fondre). Poivrer. Faire de même avec les autres feuilles de brick."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Fermer les bricks comme des papillottes en attachant les bords avec de la ficelle de cuisine. Couper les excédents de pâte sur les côtés"
+        },
+        {
+          "id": 5,
+          "name": 5,
+          "text": "Sur une plaque de cuisson chemisée de papier sulfurisé, disposer les papillottes et les faire cuire 3 minutes. Sortir les papillottes du four. Servir avec une salade."
+        }
       ]
     },
     {
       "id": 2,
       "name": "Verrines de potimarron aux noix",
       "type": "entree",
-      "author": "Mélanie MERCIER, diététicienne-nutritionniste",
+      "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
       "image": "https://recettes.de/images/blogs/gourmandise-en-folie/verrines-de-puree-potimarron-noisette.640x480.jpg",
       "numberPersons": {
         "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
@@ -137,6 +164,28 @@
           "id": 4,
           "name": "Sel",
           "quantity": "1 pincée"
+        }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text" :"Préchauffer le four à 210° C. Laver et ouvrir le potimarron en deux, le débarrasser de ses grains et le faire cuire 35-40 minutes jusqu’à ce que la chair soit fondante mais ne se délite pas."
+        },
+        {
+          "id": 2,
+          "name":2,
+          "text": "Couper le potimarron en cubes de la même taille, les mélanger avec la pincée de quatre épices et le sel."
+        },
+        {
+          "id":3,
+          "name": 3,
+          "text": "Concasser les noix."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Dans une verrine, disposer des feuilles de mâche, du potimarron rôti et des noix. Procéder de même avec les autres verrines, servir le potimarron tiède."
         }
       ]
     },
@@ -221,6 +270,38 @@
           "id": 9,
           "name": "Poivre du moulin",
           "quantity": "1 pincée"
+        }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Laver, éplucher et couper en morceaux les carottes. Couper et rincer le poireau."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Disposer la dinde, les légumes et le bouquet garni dans une cocotte, ajouter de l’eau à hauteur, porter à ébullition et cuire 1 heure 15 minutes à petits frémissements."
+        }, 
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Préchauffer le four à 200°C. Egoutter la dinde, conserver 300 ml de bouillon (conserver le reste pour une soupe !)."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Déposer la dinde dans un plat, la badigeonner d’huile d’olive avec un pinceau. Mettre du bouillon au fond du plat et enfourner la dinde 1 heure, en la retournant et en l’arrosant de jus de cuisson toutes les 15 minutes."
+        },
+        {
+          "id": 5,
+          "name": 5,
+          "text": "Laver, éplucher et couper le potimarron. Le faire cuire dans une casserole d’eau bouillante pendant 10 minutes. Le mixer avec l’huile de noisettes, ajouter une pincée de fleur de sel."
+        },
+        {
+          "id": 6,
+          "name": 6,
+          "text": "Servir la dinde rôtie avec la purée de potimarron et le jus de dinde, ajouter une pincée de fleur de sel et poivrer."
         }
       ]
     },
@@ -316,6 +397,63 @@
           "name": "Riz sauvage",
           "quantity": "225 grammes"
         }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Faire cuire le riz selon les indications sur l’emballage."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Laver les poireaux, ne garder que les parties blanches et vertes claires (conserver les parties vertes pour un potage). Émincer les poireaux très finement."
+        },
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Dans une cocotte, faire chauffer l’huile d’olive et y faire revenir les poireaux. Remuer régulièrement, les poireaux ne doivent pas colorer."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Une fois les poireaux fondus, saler, poivrer et réserver."
+        },
+        {
+          "id": 5,
+          "name":5,
+          "text": "Dans une toute petite casserole, faire bouillir de l’eau. Laver le citron. Prélever les zestes et les faire blanchir 1 minute. Égoutter et réserver."
+        },
+        {
+          "id": 6,
+          "name": 6,
+          "text": "Dans un bol, verser la crème et y ajouter le gingembre râpé."
+        },
+        {
+          "id": 7,
+          "name": 7,
+          "text": "Fendre les gousses de vanille en deux dans la longueur, les gratter avec la pointe d’un couteau et ajouter les grains à la crème."
+        },
+        {
+          "id": 8,
+          "name": 8,
+          "text": "Éplucher et émincer l’ échalote très finement. Couper la lotte en 6 tronçons."
+        },
+        {
+          "id": 9,
+          "name": 9,
+          "text": "Dans une grande poêle, faire chauffer l’huile d’olive. Y faire revenir les morceaux de lotte et l’échalote, en remuant, pendant 5 minutes. Retirer la lotte de la poêle, y verser le fumet pour la déglacer."
+        },
+        {
+          "id": 10,
+          "name": 10,
+          "text": "Porter à ébullition pendant 1 minute tout en grattant le fond avec une cuillère en bois. Ramener la poêle à feu doux puis verser la crème à la vanille dedans. Remuer et remettre les morceaux de lotte, ajouter les zestes et faire cuire à feu très doux pendant 10 minutes."
+        },
+        {
+          "id": 11,
+          "name": 11,
+          "text": "Dans chaque assiette, dresser le riz, la fondue de poireaux et la lotte avec la sauce vanillée."
+        }
       ]
     },
     {
@@ -390,6 +528,23 @@
           "name": "Amandes effilées",
           "quantity": "20 grammes"
         }
+      ],
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Lever les suprêmes des oranges : A l’aide d’un couteau, couper les deux extrémités d’une orange (côté pédoncule et à l’opposé), poser l’orange à la verticale puis, toujours à l’aide du couteau, tailler la peau de haut en bas en veillant à ôter toute la partie blanche qui adhère à la peau, pour ne laisser apparaître que la chair du fruit à vif. Réaliser la dernière étape au-dessus d'une assiette pour récupérer le jus : pour chaque quartier d’orange, glisser la lame du couteau entre la membrane et le quartier pour en extraire la chair. Répéter l’opération pour les autres oranges."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Mélanger le jus des oranges avec l’eau de fleur d’oranger, les épices et ajouter les suprêmes d’oranges. Réserver au réfrigérateur 20 min."
+        },
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Avant de servir, faire dorer les amandes effilées quelques secondes dans une poêle chaude, sans matière grasse. Ciseler les feuilles de menthe. Servir la salade d’orange parsemée d’amandes effilées et de menthe ciselée."
+        }
       ]
     },
     {
@@ -458,6 +613,28 @@
           "id": 6,
           "name": "Lait sans lactose",
           "quantity": "25 cl"
+        }
+      ], 
+      "process": [
+        {
+          "id": 1,
+          "name": 1,
+          "text": "Clarifiez les œufs : séparez les blancs des jaunes et conservez le tout séparément."
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "text": "Dans un saladier, mélangez les éléments secs : la farine, la levure chimique et la pincée de sel. Ajoutez les jaunes d’œufs, le sucre de coco et le lait. Fouettez doucement pour obtenir une pâte à crêpes un peu épaisse."
+        },
+        {
+          "id": 3,
+          "name": 3,
+          "text": "Montez les blancs en une neige ferme, puis incorporez-les délicatement à l’appareil précédent. Faites aussitôt cuire la pâte par petites quantités dans une poêle antiadhésive légèrement huilée."
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "text": "Dégustez les pancakes encore tièdes."
         }
       ]
     }
