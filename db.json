@@ -9,52 +9,40 @@
   "recipes": [
     {
       "id": 1,
-      "name": "Papillotte de foie gras",
+      "name": "Papillottes de foie gras",
       "type": "entree",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "6 personnes"
-        }
-      ],
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "1/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "1/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "2/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "3/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "20 minutes"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "3 minutes"
-        }
-      ],
+      "author": "Mélanie MERCIER, diététicienne-nutritionniste",
+      "image": "https://static.750g.com/images/622-auto/173297a4079444ea14010eb9bc3640b0/papillotes-de-foie-gras-aux-miel-et-pain-d-epices.jpeg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "6 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "1/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "1/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "2/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "3/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "20 minutes"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "3 minutes"
+      },
       "ingredients": [
         {
           "id": 1,
@@ -92,50 +80,38 @@
       "id": 2,
       "name": "verrines de potimarron aux noix",
       "type": "entree",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "4 personnes"
-        }
-      ],  
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "0/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "0/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "3/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "2/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "~1h"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "45/50 minutes"
-        }
-      ],
+      "author": "Mélanie MERCIER, diététicienne-nutritionniste",
+      "image": "https://recettes.de/images/blogs/gourmandise-en-folie/verrines-de-puree-potimarron-noisette.640x480.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "4 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "0/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "0/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "3/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "2/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "~1h"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "45/50 minutes"
+      },
       "ingredients": [
         {
           "id": 1,
@@ -166,52 +142,40 @@
     },
     {
       "id": 3,
-      "name": "dinde rôtie et sa purée de potimarron",
+      "name": "Dinde rôtie et sa purée de potimarron",
       "type": "plat",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "6 personnes"
-        }
-      ],  
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "1/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "2/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "2/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "2/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "25/30 minutes"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "~1h45"
-        }
-      ],
+      "author": "Anonyme",
+      "image": "http://www.recettes-sud-ouest.com/uploads/recettes/e66691ff3c344bac24a76071b6d9d5a3__dinde-rotie.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "6 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "1/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "2/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "2/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "2/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "25/30 minutes"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "~1h45"
+      },
       "ingredients": [
         {
           "id": 1,
@@ -264,50 +228,38 @@
       "id": 4,
       "name": "Lotte à la vanille, riz sauvage et fondue de poireaux",
       "type": "plat",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "6 personnes"
-        }
-      ],  
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "2/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "1/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "1/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "2/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "15/20 minutes"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "~20 minutes"
-        }
-      ],
+      "author": "Mélanie MERCIER, diététicienne-nutritionniste",
+      "image": "https://www.federationdesdiabetiques.org/sites/default/files/recettes/lotte_riz_sauvage.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "6 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "2/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "1/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "2/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "15/20 minutes"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "~20 minutes"
+      },
       "ingredients": [
         {
           "id": 1,
@@ -368,52 +320,40 @@
     },
     {
       "id": 5,
-      "name": "salade d'oranges",
+      "name": "Salade d'oranges",
       "type": "dessert",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "4 personnes"
-        }
-      ],  
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "1/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "0/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "1/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "1/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "15/20 minutes"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "20 minutes au réfrigérateur"
-        }
-      ],
+      "author": "Anonyme",
+      "image": "https://cache.marieclaire.fr/data/photo/w733_c17/cuisine/i13b/cvf123_055-2_v.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "4 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "1/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "0/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "1/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "15/20 minutes"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "20 minutes au réfrigérateur"
+      },
       "ingredients": [
         {
           "id": 1,
@@ -456,50 +396,38 @@
       "id": 6,
       "name": "Pancakes",
       "type": "dessert",
-      "numberPersons": [
-        {
-          "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
-          "quantity": "2 personnes"
-        }
-      ],  
-      "sugar": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
-          "quantity": "3/4"
-        }
-      ],
-      "fat": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
-          "quantity": "1/4"
-        }
-      ],
-      "ease": [
-        {
-          "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
-          "quantity": "1/4"
-        }
-      ],
-      "cost": [
-        {
-          "icone": "https://www.icone-png.com/png/14/13731.png",
-          "quantity": "1/4"
-        }
-      ],
-      "timePreparation": [
-        {
-          "name": "Préparation",
-          "icone": "http://www.icone-png.com/png/14/14357.png",
-          "quantity": "15/20 minutes"
-        }
-      ],
-      "timeCooking": [
-        {
-          "name": "Cuisson",
-          "icone": "http://www.icone-png.com/png/14/14357.png", 
-          "quantity": "2 à 3 minutes"
-        }
-      ],
+      "author": "Anonyme",
+      "image": "https://www.inspiredtaste.net/wp-content/uploads/2016/07/Pancake-Recipe-2-1200.jpg",
+      "numberPersons": {
+        "icone": "http://darkwoman.d.a.pic.centerblog.net/o/ef15e874.png",
+        "quantity": "2 personnes"
+      },
+      "sugar": {
+        "icone": "https://cdn.icon-icons.com/icons2/988/PNG/128/sugar_cubes_icon-icons.com_75177.png",
+        "quantity": "3/4"
+      },
+      "fat": {
+        "icone": "https://cdn.icon-icons.com/icons2/503/PNG/512/no-trans-fat_icon-icons.com_49220.png",
+        "quantity": "1/4"
+      },
+      "ease": {
+        "icone": "https://cdn.icon-icons.com/icons2/1239/PNG/512/spoon_83962.png",
+        "quantity": "1/4"
+      },
+      "cost": {
+        "icone": "https://www.icone-png.com/png/14/13731.png",
+        "quantity": "1/4"
+      },
+      "timePreparation": {
+        "name": "Préparation",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "15/20 minutes"
+      },
+      "timeCooking": {
+        "name": "Cuisson",
+        "icone": "http://www.icone-png.com/png/14/14357.png",
+        "quantity": "2 à 3 minutes"
+      },
       "ingredients": [
         {
           "id": 1,
