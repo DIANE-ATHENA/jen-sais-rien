@@ -8,8 +8,6 @@ import { Recipe } from './modeles/recipe';
 })
 export class RecipesService {
 
-  
-
   constructor(private _http: HttpClient) { }
 
   findRecipes(): Observable<Recipe[]> {
@@ -22,6 +20,27 @@ export class RecipesService {
 
   findRecipesByCategory(category: string): Observable<Recipe[]> {
     return this._http.get<Recipe[]>('http://localhost:3000/recipes?type=' + category);
+  }
+
+  findRecipesByIngredientsType(foodType: string): Observable<Recipe[]> {
+    return new Observable<Recipe[]>(observer => {
+      this.findRecipes().subscribe(
+        recipes => {
+          const filteredRecipes: Recipe[] = []
+          for (let recipe of recipes) {
+            for (let ingredient of recipe.ingredients) {
+              if (ingredient.foodType && ingredient.foodType.toLowerCase() === foodType.toLowerCase()) {
+                filteredRecipes.push(recipe)
+                break
+              }
+            }
+          }
+          console.log('Filtered recipes', filteredRecipes)
+          observer.next(filteredRecipes)
+          observer.complete()
+        }
+      )
+    })
   }
 
 }

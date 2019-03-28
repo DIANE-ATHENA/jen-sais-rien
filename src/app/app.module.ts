@@ -15,6 +15,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
+import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredients/recipes-category-ingredients.component';
 
 
 
@@ -30,6 +31,7 @@ import { RecipeProcessComponent } from './recipe-process/recipe-process.componen
     RecipesCategoryComponent,
     RecipeDetailsComponent,
     RecipeProcessComponent,
+    RecipesCategoryIngredientsComponent,
     
   ],
 

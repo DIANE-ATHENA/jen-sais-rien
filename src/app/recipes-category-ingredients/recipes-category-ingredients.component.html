@@ -1,0 +1,7 @@
+<h1>{{ categoryName|uppercase }}</h1>
+
+<p *ngIf="!recipes">Chargement des recettes...</p>
+
+<div class="recipes" *ngIf="recipes">
+    <app-recipe-details *ngFor="let recipe of recipes" [recipe]="recipe"></app-recipe-details>
+</div>

@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Recipe, Process } from '../modeles/recipe';
-import { ActivatedRoute } from '@angular/router';
 import { RecipesService } from '../recipes.service';
 
 

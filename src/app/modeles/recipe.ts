@@ -20,3 +20,10 @@ export class Process {
         name: string;
         text: any[];
 }
+
+export class Ingredients {
+        id: number;
+        name: string;
+        quantity: any;
+        foodType: string;
+}

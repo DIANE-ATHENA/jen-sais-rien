@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
 import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
+import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredients/recipes-category-ingredients.component';
 
 const routes: Routes = [
 
@@ -27,6 +28,11 @@ const routes: Routes = [
   {
     path:"recipe-details/:id",
     component: RecipeProcessComponent
+  },
+
+  {
+    path:"recipes-by-foodtype/:foodType",
+    component: RecipesCategoryIngredientsComponent
   },
 
   {
