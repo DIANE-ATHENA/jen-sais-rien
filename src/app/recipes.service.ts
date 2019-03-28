@@ -44,3 +44,26 @@ export class RecipesService {
   }
 
 }
+
+findRecipesByDiabeteType(typeI: string, typeII: string, gesta: string, ado: string): Observable<Recipe[]> {
+  return new Observable<Recipe[]>(observer => {
+    this.findDiabeteType().subscribe(
+      recipes => {
+        const filteredRecipes: Recipe[] = []
+        for (let recipe of recipes) {
+          for (let typeI of recipe) {
+            if (recipe.typeI && recipe.typeI.toLowerCase() === typeI.toLowerCase()) {
+              filteredRecipes.push(recipe)
+            }
+          }
+          for (let ty)
+        }
+        console.log('Filtered recipes', filteredRecipes)
+        observer.next(filteredRecipes)
+        observer.complete()
+      }
+    )
+  })
+}
+
+}

@@ -16,6 +16,7 @@ import { RecipesCategoryComponent } from './recipes-category/recipes-category.co
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
 import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredients/recipes-category-ingredients.component';
+import { DiabeteComponent } from './diabete/diabete.component';
 
 
 
@@ -32,6 +33,7 @@ import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredie
     RecipeDetailsComponent,
     RecipeProcessComponent,
     RecipesCategoryIngredientsComponent,
+    DiabeteComponent,
     
   ],
 
