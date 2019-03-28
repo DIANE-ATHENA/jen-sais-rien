@@ -46,32 +46,35 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Foie gras de canard sans morceaux",
-          "quantity": "120 grammes"
+          "name": "de Foie gras de canard sans morceaux",
+          "quantity": "120 grammes",
+          "foodType": "viande"
         },
         {
           "id": 2,
           "name": "Feuilles de brick",
-          "quantity": "6 feuilles"
+          "quantity": 6
         },
         {
           "id": 3,
           "name": "Pomme Granny",
-          "quantity": 1
+          "quantity": 1,
+          "foodType": "fruit"
+
         },
         {
           "id": 4,
-          "name": "Quatre épices",
+          "name": "de Quatre épices",
           "quantity": "1 pincée"
         },
         {
           "id": 5,
-          "name": "Poivre",
+          "name": "de Poivre",
           "quantity": "1 pincée"
         },
         {
           "id": 6,
-          "name": "Ficelle de cuisine",
+          "name": "de Ficelle de cuisine",
           "quantity": "1 bobine"
         }
       ],
@@ -142,27 +145,30 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Potimarron",
-          "quantity": "1 de 800grammes"
+          "name": "Potimarron de 800 grammes",
+          "quantity": 1,
+          "foodType": "legume"
         },
         {
           "id": 2,
-          "name": "Cerneaux de noix",
-          "quantity": "40 grammes"
+          "name": "de Cerneaux de noix",
+          "quantity": "40 grammes",
+          "foodType": "fruit"
         },
         {
           "id": 3,
-          "name": "Mâche",
-          "quantity": "100 grammes"
+          "name": "de Mâche",
+          "quantity": "100 grammes",
+          "foodType": "legume"
         },
         {
           "id": 4,
-          "name": "Quatre épices",
+          "name": "de Quatre épices",
           "quantity": "1 pincée"
         },
         {
           "id": 4,
-          "name": "Sel",
+          "name": "de Sel",
           "quantity": "1 pincée"
         }
       ],
@@ -192,7 +198,7 @@
     {
       "id": 3,
       "name": "Velouté de céleri, truite fumée",
-      "type": "plat",
+      "type": "entree",
       "author": "(Mélanie MERCIER, diététicienne-nutritionniste)",
       "image": "https://www.federationdesdiabetiques.org/sites/default/files/recettes/veloute_celeri.jpg",
       "numberPersons": {
@@ -226,28 +232,32 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Céleri rave",
-          "quantity": "800 grammes"
+          "name": "de Céleri rave",
+          "quantity": "800 grammes",
+          "foodType": "legume"
         },
         {
           "id": 1,
-          "name": "Pomme de terre",
-          "quantity": "200 grammes"
+          "name": "de Pommes de terre",
+          "quantity": "200 grammes",
+          "foodType": "feculent"
         },
         {
           "id": 1,
           "name": "Oignon",
-          "quantity": "1"
+          "quantity": "1",
+          "foodType": "legume"
         },
         {
           "id": 1,
-          "name": "Lait concentré non sucré",
+          "name": "de Lait concentré non sucré",
           "quantity": "100 ml"
         },
         {
           "id": 1,
-          "name": "Truite fumée",
-          "quantity": "200 grammes"
+          "name": "de Truite fumée",
+          "quantity": "200 grammes",
+          "foodType": "poisson"
         }
       ],
       "process": [
@@ -309,18 +319,21 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Dinde",
-          "quantity": "1 de 2.3kg"
+          "name": "Dinde de 2.3kg",
+          "quantity": 1,
+          "foodType": "viande"
         },
         {
           "id": 2,
           "name": "Carottes",
-          "quantity": 2
+          "quantity": 2,
+          "foodType": "legume"
         },
         {
           "id": 3,
           "name": "Poireau",
-          "quantity": 1
+          "quantity": 1,
+          "foodType": "legume"
         },
         {
           "id": 4,
@@ -329,27 +342,28 @@
         },
         {
           "id": 5,
-          "name": "Huile d'olive",
+          "name": "d'Huile d'olive",
           "quantity": "2 cuillérées à soupe"
         },
         {
           "id": 6,
-          "name": "Potimarron",
-          "quantity": "1 de 2kg"
+          "name": "Potimarron de 2kg",
+          "quantity": 1,
+          "foodType": "legume"
         },
         {
           "id": 7,
-          "name": "Huile de noisette (ou de noix)",
+          "name": "d'Huile de noisette (ou de noix)",
           "quantity": "2 cuillérées à soupe"
         },
         {
           "id": 8,
-          "name": "Fleur de sel",
+          "name": "de Fleur de sel",
           "quantity": "1 pincée"
         },
         {
           "id": 9,
-          "name": "Poivre du moulin",
+          "name": "de Poivre du moulin",
           "quantity": "1 pincée"
         }
       ],
@@ -425,58 +439,63 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Queue de lotte",
-          "quantity": "900 grammes sans la peau"
+          "name": "de Queue de lotte sans la peau",
+          "quantity": "900 grammes",
+          "foodType": "poisson"
         },
         {
           "id": 2,
-          "name": "Huile d'olive",
+          "name": "d'Huile d'olive",
           "quantity": "4 cuillérées à soupe"
         },
         {
           "id": 3,
           "name": "Echalotte",
-          "quantity": "1 grosse"
+          "quantity": "1 grosse",
+          "foodType": "legume"
         },
         {
           "id": 4,
-          "name": "Vanille",
+          "name": "de Vanille",
           "quantity": "3 gousses"
         },
         {
           "id": 5,
-          "name": "Crème fraîche épaisse 15%",
+          "name": "de Crème fraîche épaisse 15%",
           "quantity": "200 grammes"
         },
         {
           "id": 6,
-          "name": "Fumet de poisson",
+          "name": "de Fumet de poisson",
           "quantity": "100ml"
         },
         {
           "id": 7,
-          "name": "Gingembre frais",
-          "quantity": "1 petit morceau"
+          "name": "de Gingembre frais",
+          "quantity": "1 petit morceau",
+          "foodType": "legume"
         },
         {
           "id": 8,
           "name": "Citron",
-          "quantity": 1
+          "quantity": 1,
+          "ffodType": "fruit"
         },
         {
           "id": 9,
-          "name": "Poivre",
+          "name": "de Poivre",
           "quantity": "1 pincée"
         },
         {
           "id": 10,
-          "name": "Fleur de sel",
+          "name": "de Fleur de sel",
           "quantity": "1 pincée"
         },
         {
           "id": 11,
-          "name": "Riz sauvage",
-          "quantity": "225 grammes"
+          "name": "de Riz sauvage",
+          "quantity": "225 grammes",
+          "foodType": "feculent"
         }
       ],
       "process": [
@@ -577,47 +596,51 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Poireaux",
-          "quantity": "1 kg"
+          "name": "de Poireaux",
+          "quantity": "1 kg",
+          "foodType": "legume"
         },
         {
           "id": 2,
-          "name": "Quinoa cru",
-          "quantity": "200 grammes"
+          "name": "de Quinoa cru",
+          "quantity": "200 grammes",
+          "foodType": "feculent"
         },
         {
           "id": 3,
-          "name": "Lait demi-écrémé",
+          "name": "de Lait demi-écrémé",
           "quantity": "200 ml"
         },
         {
           "id": 4,
           "name": "Oignon",
-          "quantity": 1
+          "quantity": 1,
+          "foodType": "legume"
         },
         {
           "id": 5,
           "name": "Gousse d'ail",
-          "quantity": 1
+          "quantity": 1,
+          "foodType": "legume"
         },
         {
           "id": 6,
-          "name": "Huile d'olive",
+          "name": "d'Huile d'olive",
           "quantity": "30 ml"
         },
         {
           "id": 7,
-          "name": "Sel",
+          "name": "de Sel",
           "quantity": "1 pincée"
         },
         {
           "id": 8,
-          "name": "Poivre",
+          "name": "de Poivre",
           "quantity": "1 pincée"
         },
         {
           "id": 9,
-          "name": "Fromage râpé",
+          "name": "de Fromage râpé",
           "quantity": "40 grammes"
         }
       ],
@@ -689,38 +712,40 @@
       "ingredients": [
         {
           "id": 1,
-          "name": "Orange",
-          "quantity": 4
+          "name": "Oranges",
+          "quantity": 4,
+          "foodType": "fruit"
         },
         {
           "id": 2,
-          "name": "Menthe",
+          "name": "de Menthe",
           "quantity": "2 feuilles"
         },
         {
           "id": 3,
-          "name": "Canelle",
+          "name": "de Canelle",
           "quantity": "1 pincée"
         },
         {
           "id": 4,
-          "name": "Vanille",
+          "name": "de Vanille",
           "quantity": "1 pincée"
         },
         {
           "id": 5,
-          "name": "Cinq épices",
+          "name": "de Cinq épices",
           "quantity": "1 pincée"
         },
         {
           "id": 6,
-          "name": "Fleur d'oranger",
+          "name": "de Fleur d'oranger",
           "quantity": "1 cuillère à café"
         },
         {
           "id": 7,
-          "name": "Amandes effilées",
-          "quantity": "20 grammes"
+          "name": "d'Amandes effilées",
+          "quantity": "20 grammes",
+          "foodType": "fruit"
         }
       ],
       "process": [
@@ -785,27 +810,27 @@
         },
         {
           "id": 2,
-          "name": "Farine d'épeautre complète",
+          "name": "de Farine d'épeautre complète",
           "quantity": "150 grammes"
         },
         {
           "id": 3,
-          "name": "Levure chimique",
+          "name": "de Levure chimique",
           "quantity": "1/2 sachet"
         },
         {
           "id": 4,
-          "name": "Sel",
+          "name": "de Sel",
           "quantity": "1 pincée"
         },
         {
           "id": 5,
-          "name": "Sucre de coco",
+          "name": "de Sucre de coco",
           "quantity": "10 grammes"
         },
         {
           "id": 6,
-          "name": "Lait sans lactose",
+          "name": "de Lait sans lactose",
           "quantity": "25 cl"
         }
       ], 
@@ -873,36 +898,37 @@
         {
           "id": 1,
           "name": "Petites poires mûres",
-          "quantity": 3
+          "quantity": 3,
+          "foodType": "fruit"
         },
         {
           "id": 2,
-          "name": "Farine complète",
+          "name": "de Farine complète",
           "quantity": "60 grammes"
         },
         {
           "id": 3,
-          "name": "Maïzena",
+          "name": "de Maïzena",
           "quantity": "20 grammes"
         },
         {
           "id": 4,
-          "name": "Sucre",
+          "name": "de Sucre",
           "quantity": "3 cuillères à café"
         },
         {
           "id": 5,
-          "name": "Cacao en poudre non sucré",
+          "name": "de Cacao en poudre non sucré",
           "quantity": "3 cuillères à café"
         },
         {
           "id": 6,
           "name": "Oeufs",
-          "quantity": "2"
+          "quantity": 2
         },
         {
           "id": 7,
-          "name": "Lait écrémé",
+          "name": "de Lait écrémé",
           "quantity": "30 cl"
         }
       ], 

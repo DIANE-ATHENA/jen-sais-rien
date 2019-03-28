@@ -8,13 +8,20 @@ import { Recipe } from './modeles/recipe';
 })
 export class RecipesService {
 
+  
+
   constructor(private _http: HttpClient) { }
 
   findRecipes(): Observable<Recipe[]> {
     return this._http.get<Recipe[]>('http://localhost:3000/recipes');
   }
 
+  findRecipe(recipeId: number): any {
+    return this._http.get<Recipe>('http://localhost:3000/recipes/' + recipeId);
+  }
+
   findRecipesByCategory(category: string): Observable<Recipe[]> {
     return this._http.get<Recipe[]>('http://localhost:3000/recipes?type=' + category);
   }
+
 }

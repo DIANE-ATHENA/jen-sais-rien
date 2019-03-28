@@ -12,4 +12,11 @@ export class Recipe {
         timePreparation: any;
         timeCooking: any;
         ingredients: any[];
+        process: Process[];
+}
+
+export class Process {
+        id: number;
+        name: string;
+        text: any[];
 }

@@ -1,3 +1,56 @@
-<p>
-  recipe-process works!
-</p>
+<mat-card *ngIf="recipe">
+    <mat-card-title>{{ recipe.name }}</mat-card-title>
+    <mat-card-subtitle>{{ recipe.author }}</mat-card-subtitle>
+    <br><br>
+    <img mat-card-image src="{{ recipe.image }}" />
+    <mat-card-content>
+      <table>
+        <tr>
+          <td><img src="{{recipe.numberPersons.icone}}" class="icone" /></td>
+          <td class="libelle">{{recipe.numberPersons.quantity}}</td>
+        </tr>
+  
+        <tr>
+            <td><img src="{{recipe.sugar.icone}}" class="icone" /></td>
+            <td class="libelle">{{recipe.sugar.quantity}}</td>
+        </tr>
+  
+        <tr>
+          <td><img src="{{recipe.fat.icone}}" class="icone" /></td>
+          <td class="libelle">{{recipe.fat.quantity}}</td>
+        </tr>
+  
+        <tr>
+          <td><img src="{{recipe.ease.icone}}" class="icone" /></td>
+          <td class="libelle">{{recipe.ease.quantity}}</td>
+        </tr>
+  
+        <tr>
+          <td> <img src="{{recipe.cost.icone}}" class="icone" /></td>
+          <td class="libelle">{{recipe.cost.quantity}}</td>
+        </tr>
+  
+        <tr>
+          <td><img src="{{recipe.timePreparation.icone}}" class="icone" /></td>
+          <td class="libelle"> {{recipe.timePreparation.quantity}}</td>
+        </tr>
+        
+        <tr>
+          <td><img src="{{recipe.timeCooking.icone}}" class="icone" /></td>
+          <td class="libelle">{{recipe.timeCooking.quantity}}</td>
+        </tr>
+  
+      </table>
+      
+      Ingrédients :
+      <ul>
+        <li *ngFor="let ingredient of recipe.ingredients">{{ingredient.quantity}} {{ingredient.name}}</li>
+      </ul>
+
+      Procédure :
+      <ul>
+        <li *ngFor="let proc of recipe.process">{{proc.name}} {{proc.text}}</li>
+      </ul>
+      
+    </mat-card-content>
+  </mat-card>

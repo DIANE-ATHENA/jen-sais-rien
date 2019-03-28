@@ -1,16 +1,33 @@
 mat-card {
     display: block;
     float:left;
-    margin:20px;
+    margin:45px;
     height: 870px;
     width:300px;
 }
 
+
 mat-card-title {
     font-size:16px;
 }
+.author {
+    font-style: italic;
+    font-size:11px;
+    font-weight:normal;
+}
+.mat-card-image {
+    height: 235px;
+}
+
+/*.button {
+    background-color: rgb(66, 66, 66);
+    color: white;
+}*/
 
 .icone {
     width:40px;
     height:40px;
+}
+.libelle {
+    padding-left:10px;
 }

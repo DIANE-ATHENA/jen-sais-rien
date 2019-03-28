@@ -25,7 +25,7 @@ const routes: Routes = [
   },
 
   {
-    path:"recipe-details/:process",
+    path:"recipe-details/:id",
     component: RecipeProcessComponent
   },
 
