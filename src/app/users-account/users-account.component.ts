@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { stringify } from '@angular/core/src/util';
 import { Observable } from 'rxjs';
+import { AuthService } from '../auth.service';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-users-account',
@@ -14,7 +16,8 @@ export class UsersAccountComponent implements OnInit {
   _http: any;
   _token: string;
 
-  constructor(private _fb: FormBuilder) { 
+  constructor(private _fb: FormBuilder,
+    private _userService: UserService) { 
     this.form=this._fb.group({
       nom: "",
       prenom: "",
@@ -26,20 +29,9 @@ export class UsersAccountComponent implements OnInit {
   ngOnInit() {
   }
 
-  createLogin(formcreateLogin: { nom: any, prenom: any, email: string, password: string })
-  : Observable<boolean> {
-  return new Observable(observer => {
-    this._http.post('http://localhost:3000/createLogin', formcreateLogin).subscribe(
-      (result: { accessToken: string }) => {
-        this._token = result.accessToken;
-        observer.next(true);
-        observer.complete();
-      },
-      err => observer.error(err)
-    )
-  })
-}
-get token() {
-  return this._token;
-}
+  createLogin() {
+    if (this.form.valid) {
+      this._userService.
+    }
+  }
 }
