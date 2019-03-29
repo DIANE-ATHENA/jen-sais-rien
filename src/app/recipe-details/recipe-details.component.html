@@ -7,7 +7,7 @@
   <br><br>
   <img mat-card-image src="{{ recipe.image }}" />
   <mat-card-content>
-    <table>
+    <table class="table">
       <tr>
         <td><img src="{{recipe.numberPersons.icone}}" class="icone" /></td>
         <td class="libelle">{{recipe.numberPersons.quantity}}</td>
@@ -44,7 +44,7 @@
       </tr>
 
     </table>
-    
+    <br><br>
     Ingrédients :
     <ul>
       <li *ngFor="let ingredient of recipe.ingredients">{{ingredient.quantity}} {{ingredient.name}}</li>
@@ -53,4 +53,3 @@
   </mat-card-content>
 </mat-card>
 
-<!--style="background-color: rgb(66, 66, 66)"-->

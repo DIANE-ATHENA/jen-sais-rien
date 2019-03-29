@@ -19,6 +19,11 @@ mat-card-title {
     height: 235px;
 }
 
+.table {
+    display: inline-block;
+    text-align: center;
+}
+
 .button {
     background-color: rgb(66, 66, 66);
     color: white;
