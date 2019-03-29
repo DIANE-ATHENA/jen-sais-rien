@@ -1,3 +1,8 @@
+<h1>{{ categoryName|uppercase }}</h1>
+
+<!--<p *ngIf="!recipes">Chargement des recettes...</p>-->
+
+
 <mat-card *ngIf="recipe">
     <mat-card-title>{{ recipe.name }}</mat-card-title>
     <mat-card-subtitle>{{ recipe.author }}</mat-card-subtitle>
@@ -42,14 +47,20 @@
   
       </table>
       
-      Ingrédients :
+      <!--Ingrédients : -->
       <ul>
-        <li *ngFor="let ingredient of recipe.ingredients">{{ingredient.quantity}} {{ingredient.name}}</li>
+        <li class="ingrédients"><b>Ingrédients :</b></li>
+        <br><br>
+        <li class="li" *ngFor="let ingredient of recipe.ingredients">{{ingredient.quantity}} {{ingredient.name}}</li>
       </ul>
 
-      Procédure :
+      <br><br>
+
+      <!--Procédure : -->
       <ul>
-        <li *ngFor="let proc of recipe.process">{{proc.name}} {{proc.text}}</li>
+        <li class="procédure"><b>Procédure :</b></li>
+        <br><br>
+        <li class="li" *ngFor="let proc of recipe.process">{{proc.name}} {{proc.text}}</li>
       </ul>
       
     </mat-card-content>

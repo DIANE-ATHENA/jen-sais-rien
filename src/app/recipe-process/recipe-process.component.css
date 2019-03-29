@@ -1,8 +1,8 @@
 mat-card {
-    display: block;
-    float:left;
-    height: 1500px;
-    width:1500px;
+    display: inline-block;
+    text-align: center;
+    height: 1550px;
+    width:900px;
 }
 
 
@@ -15,13 +15,9 @@ mat-card-title {
     font-weight:normal;
 }
 .mat-card-image {
-    height: 235px;
+    height: 250px;
+    width: 270px;
 }
-
-/*.button {
-    background-color: rgb(66, 66, 66);
-    color: white;
-}*/
 
 .icone {
     width:40px;
@@ -29,4 +25,15 @@ mat-card-title {
 }
 .libelle {
     padding-left:10px;
+}
+
+.ingrédients {
+    font-size: 14px;
+}
+
+.procédure {
+    font-size: 14px;
+}
+.li {
+    margin-bottom: 10px;
 }

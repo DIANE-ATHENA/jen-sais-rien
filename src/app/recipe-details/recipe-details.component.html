@@ -3,7 +3,7 @@
 <mat-card *ngIf="recipe">
   <mat-card-title>{{ recipe.name }}</mat-card-title>
   <mat-card-subtitle>{{ recipe.author }}</mat-card-subtitle>
-  <button routerLink="/recipe-details/{{recipe.id}}">Voir la recette</button>
+  <button class="button" routerLink="/recipe-details/{{recipe.id}}" >Voir la recette</button>
   <br><br>
   <img mat-card-image src="{{ recipe.image }}" />
   <mat-card-content>
@@ -52,3 +52,5 @@
     
   </mat-card-content>
 </mat-card>
+
+<!--style="background-color: rgb(66, 66, 66)"-->

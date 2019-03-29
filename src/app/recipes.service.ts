@@ -45,7 +45,7 @@ export class RecipesService {
 
 }
 
-findRecipesByDiabeteType(typeI: string, typeII: string, gesta: string, ado: string): Observable<Recipe[]> {
+/*findRecipesByDiabeteType(typeI: string, typeII: string, gesta: string, ado: string): Observable<Recipe[]> {
   return new Observable<Recipe[]>(observer => {
     this.findDiabeteType().subscribe(
       recipes => {
@@ -66,4 +66,4 @@ findRecipesByDiabeteType(typeI: string, typeII: string, gesta: string, ado: stri
   })
 }
 
-}
+}*/
