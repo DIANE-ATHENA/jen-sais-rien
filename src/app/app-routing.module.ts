@@ -6,6 +6,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { RecipesCategoryComponent } from './recipes-category/recipes-category.component';
 import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
 import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredients/recipes-category-ingredients.component';
+import { UsersAccountComponent } from './users-account/users-account.component';
 
 const routes: Routes = [
 
@@ -39,6 +40,11 @@ const routes: Routes = [
     path:"login",
     component: LoginComponent
   },
+
+  {
+    path:"createLogin",
+    component: UsersAccountComponent
+  }
 
 
 ];

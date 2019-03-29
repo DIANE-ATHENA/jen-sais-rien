@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-title>Créer votre compte</mat-card-title>
+  
+    <form [formGroup]="form">
+
+      <mat-form-field>
+        <input matInput required type="text"
+            formControlName="nom" placeholder="Nom">
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input matInput required type="text"
+          formControlName="prenom" placeholder="Prénom">
+      </mat-form-field>
+      <br>
+
+      <mat-form-field>
+        <input matInput required type="email"
+        formControlName="email" placeholder="E-mail">
+      </mat-form-field>
+      <br>
+  
+      <mat-form-field>
+        <input matInput required type="password"
+        formControlName="password" placeholder="Mot de passe">
+      </mat-form-field>
+      <br><br><br>
+  
+      <button mat-raised-button color="primary"
+      (click)="createLogin()">Valider</button>
+    </form>
+  </mat-card>

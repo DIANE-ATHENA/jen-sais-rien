@@ -17,6 +17,7 @@ import { RecipeDetailsComponent } from './recipe-details/recipe-details.componen
 import { RecipeProcessComponent } from './recipe-process/recipe-process.component';
 import { RecipesCategoryIngredientsComponent } from './recipes-category-ingredients/recipes-category-ingredients.component';
 import { DiabeteComponent } from './diabete/diabete.component';
+import { UsersAccountComponent } from './users-account/users-account.component';
 
 
 
@@ -34,6 +35,7 @@ import { DiabeteComponent } from './diabete/diabete.component';
     RecipeProcessComponent,
     RecipesCategoryIngredientsComponent,
     DiabeteComponent,
+    UsersAccountComponent,
     
   ],
 
